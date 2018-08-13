@@ -1,0 +1,29 @@
+!GameSettingsAsset
+Id: 2314ff13-1d7c-4e17-80f0-14965139b058
+SerializedVersion: {Xenko: 2.1.0.3}
+Tags: []
+DefaultScene: 9804a873-078e-4de7-a7ab-a3a4fd7da48d:MainScene
+GraphicsCompositor: 7dcbe2a8-7f9a-4029-a220-b58b22a5b8e9:GraphicsCompositor
+Defaults:
+    - !Xenko.Graphics.RenderingSettings,Xenko.Graphics
+        DefaultBackBufferWidth: 1280
+        DefaultBackBufferHeight: 720
+        AdaptBackBufferToScreen: false
+        DefaultGraphicsProfile: Level_11_2
+        ColorSpace: Linear
+        DisplayOrientation: LandscapeRight
+        PreferredGraphicsPlatform: Vulkan
+Overrides: []
+PlatformFilters:
+    - PowerVR SGX 54[0-9]
+    - Adreno \(TM\) 2[0-9][0-9]
+    - Adreno (TM) 320
+    - Adreno (TM) 330
+    - Adreno \(TM\) 4[0-9][0-9]
+    - NVIDIA Tegra
+    - Intel(R) HD Graphics
+    - ^Mali\-4
+    - ^Mali\-T6
+    - ^Mali\-T7
+SplashScreenTexture: d26edb11-10bd-403c-b3c2-9c7fcccf25e5:XenkoDefaultSplashScreen
+SplashScreenColor: {R: 0, G: 0, B: 0, A: 255}
