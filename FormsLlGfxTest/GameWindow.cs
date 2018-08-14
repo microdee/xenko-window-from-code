@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using SharpDX.DXGI;
 using Xenko;
 using Xenko.Data;
 using Xenko.Engine;
